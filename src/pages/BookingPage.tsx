@@ -40,7 +40,7 @@ const BookingPage: React.FC = () => {
   ];
 
  
-  const whatsappNumber = "+1234567890";
+  const whatsappNumber = "+2348152441353";
   
   const [selectedSession, setSelectedSession] = useState<string>('portrait');
   const [name, setName] = useState<string>('');
