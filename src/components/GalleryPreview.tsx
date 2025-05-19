@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import '../styles/GalleryPreview.css';
 
-// Define TypeScript interfaces
 interface ImageItem {
   id: number;
   src: string;
@@ -13,15 +12,15 @@ interface ImageItem {
 const SimpleGallery: React.FC = () => {
 
   const images: ImageItem[] = [
-    { id: 1, src: 'src/assets/soaspic.jpg', alt: 'Urban architecture', title: 'Masked Lovers' },
-    { id: 2, src: 'src/assets/sosa8.jpg', alt: 'Portrait photography', title: 'African' },
-    { id: 3, src: 'src/assets/sosa9.jpg', alt: 'Landscape photography', title: 'Solitude' },
-    { id: 4, src: 'src/assets/sosa10.jpg', alt: 'Landscape photography', title: 'Smile' },
-    { id: 5, src: 'src/assets/sosa5.jpg', alt: 'Street photography', title: 'Authenticity' },
-    { id: 6, src: 'src/assets/sosa6.jpg', alt: 'Architecture detail', title: 'Professional' },
-    { id: 7, src: 'src/assets/sosa7.jpg', alt: 'Portrait photography', title: 'African' },
-    { id: 8, src: 'src/assets/sosa11.jpg', alt: 'Macro photography', title: 'Masked Lovers' },
-    { id: 9, src: 'src/assets/sosa4.jpg', alt: 'Street photography', title: 'Self love' },
+    { id: 1, src: 'public/assets/soaspic.jpg', alt: 'Urban architecture', title: 'Masked Lovers' },
+    { id: 2, src: 'public/assets/sosa8.jpg', alt: 'Portrait photography', title: 'African' },
+    { id: 3, src: 'public/assets/sosa9.jpg', alt: 'Landscape photography', title: 'Solitude' },
+    { id: 4, src: 'public/assets/sosa10.jpg', alt: 'Landscape photography', title: 'Smile' },
+    { id: 5, src: 'public/assets/sosa5.jpg', alt: 'Street photography', title: 'Authenticity' },
+    { id: 6, src: 'public/assets/sosa6.jpg', alt: 'Architecture detail', title: 'Professional' },
+    { id: 7, src: 'public/assets/sosa7.jpg', alt: 'Portrait photography', title: 'African' },
+    { id: 8, src: 'public/assets/sosa11.jpg', alt: 'Macro photography', title: 'Masked Lovers' },
+    { id: 9, src: 'public/assets/sosa4.jpg', alt: 'Street photography', title: 'Self love' },
   ];
 
   

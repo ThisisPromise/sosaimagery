@@ -9,9 +9,9 @@ import Footer from './Footer';
 const HomePage: React.FC = () => {
 
   const heroImages = [
-    'src/assets/sosa1.jpg',  
-    'src/assets/sosa5.jpg',  
-    'src/assets/sosa11.jpg', 
+    'public/assets/sosa1.jpg',  
+    'public/assets/sosa5.jpg',  
+    'public/assets/sosa11.jpg', 
   ];
 
  
@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
             <a href="#gallery" className="text-link">Explore our work</a>
           </div>
           <div className="about-image">
-            <img src="src/assets/sosa2.jpg" alt="Photographer at work" />
+            <img src="/assets/sosa2.jpg" alt="Photographer at work" />
           </div>
         </div>
       </section>

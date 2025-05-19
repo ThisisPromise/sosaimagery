@@ -1,7 +1,7 @@
 // Header.tsx
 import React, { useState, useEffect } from 'react';
 import '../styles/Header.css';
-import logo from '../assets/sosa_logo-removebg-preview.png';
+
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="logo">
-          <img src={logo} alt="Sosa Photography" />
+          <img src='public/assets/sosa_logo-removebg-preview.png' alt="Sosa Photography" />
         </div>
         
         <button 
