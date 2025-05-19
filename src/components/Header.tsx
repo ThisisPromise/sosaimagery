@@ -50,7 +50,7 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="logo">
-          <img src='public/assets/sosa_logo-removebg-preview.png' alt="Sosa Photography" />
+          <img src='/assets/sosa_logo-removebg-preview.png' alt="Sosa Photography" />
         </div>
         
         <button 
