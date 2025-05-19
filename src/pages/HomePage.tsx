@@ -9,9 +9,9 @@ import Footer from './Footer';
 const HomePage: React.FC = () => {
 
   const heroImages = [
-    'public/assets/sosa1.jpg',  
-    'public/assets/sosa5.jpg',  
-    'public/assets/sosa11.jpg', 
+    '/assets/sosa1.jpg',  
+    '/assets/sosa5.jpg',  
+    '/assets/sosa11.jpg', 
   ];
 
  
